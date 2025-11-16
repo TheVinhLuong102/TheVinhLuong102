@@ -15,6 +15,15 @@ sudo apt upgrade python3 python3-pip
 sudo snap install astral-uv
 
 
+# NODE JS & related
+# =================
+
+# NodeJS & NPM
+# ------------
+sudo apt install nodejs npm
+sudo apt upgrade nodejs npm
+
+
 # INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
 # ==========================================
 
