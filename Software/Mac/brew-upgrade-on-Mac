@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+
+brew update
+
+
+FORMULAS_AND_CASKS=(
+  # AI Tools
+  ChatGPT Claude Perplexity Granola
+  LM-Studio Ollama
+
+  # Coding Environments/Tools
+  Visual-Studio-Code Cursor Kiro Windsurf Claude-Code Codex
+  GitHub GH SourceTree
+  Sublime-Text
+
+  # Python
+  Python UV
+
+  # Node JS
+  Node NPM YARN
+
+  # Misc/Other Development Packages/Tools
+  CMake Make MySQL-Client Pkg-Config WGet
+
+  # Cloud Storages
+  Box-Drive
+  CyberDuck
+  Dropbox Dropbox-Capture Dropbox-Dash Dropbox-Passwords
+  Maestral  # open-source Dropbox client
+  Google-Drive
+
+  # Messaging Tools
+  Discord Google-Chat Messenger Microsoft-Teams Slack Telegram WebEx WeChat WhatsApp Zalo Zoom
+
+  # Microsoft Office (incl. OneDrive)
+  Microsoft-Office
+
+  # Web Browers
+  Google-Chrome Google-Chrome@Beta Google-Chrome@Canary Microsoft-Edge
+
+  # Misc/Other Productivity Tools
+  1Password Adobe-Acrobat-Reader Craft DBeaver-Community DrawIO Figma Grammarly Postman
+
+  # Music
+  Amazon-Music Pandora Spotify Tidal
+
+  # Math
+  GeoGebra
+
+  # Robotics
+  Webots
+
+  # Video Editing
+  Descript Loom
+
+  # misc / other
+  ImageMagick Minecraft SetApp
+)
+
+
+for formula_or_cask in ${FORMULAS_AND_CASKS[@]}; do
+  brew upgrade $formula_or_cask
+done
