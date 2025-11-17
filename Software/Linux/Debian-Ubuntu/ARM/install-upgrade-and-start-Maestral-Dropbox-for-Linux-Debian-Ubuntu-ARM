@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+
+python3 -m pip install maestral[gui] \
+  --upgrade --user --break-system-packages
+
+
+# Maestral GUI Qt dependencies for ARM64
+sudo apt update
+sudo apt install -y libxcb-cursor0 libxkbcommon-x11-0 libxcb-xinerama0 libxcb-render-util0 libxcb-image0 libxcb-keysyms1 libxcb-icccm4 libxcb-shm0 libxcb-xfixes0
+
+
+# Start Maestral GUI
+maestral gui
