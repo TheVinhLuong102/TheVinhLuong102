@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 
 
+# GENERAL APT/SNAP UPDATE/UPGRADE
+# ===============================
+sudo apt update
+sudo snap refresh
+
+
 # PYTHON & related
 # ================
 
@@ -30,3 +36,12 @@ sudo apt upgrade nodejs npm
 # Visual Studio Code
 # ------------------
 sudo snap install code
+
+# Cursor
+# ------
+sudo snap install cursor
+
+# Windsurf
+# --------
+sudo apt install windsurf
+sudo apt upgrade windsurf
