@@ -7,6 +7,14 @@ sudo apt update
 sudo snap refresh
 
 
+# GIT & related
+# =============
+
+# Sublime Merge
+# -------------
+sudo snap install sublime-merge
+
+
 # PYTHON & related
 # ================
 
@@ -36,10 +44,6 @@ sudo apt upgrade nodejs npm
 # Visual Studio Code
 # ------------------
 sudo snap install code
-
-# Cursor
-# ------
-sudo snap install cursor
 
 # Windsurf
 # --------
