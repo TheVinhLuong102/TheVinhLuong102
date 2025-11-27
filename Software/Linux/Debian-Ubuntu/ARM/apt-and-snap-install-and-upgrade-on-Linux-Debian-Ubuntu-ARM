@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
 
 
+# GENERAL APT/SNAP UPDATE/UPGRADE
+# ===============================
+sudo apt update
+sudo snap refresh
+
+
+# GIT & related
+# =============
+
+# Sublime Merge
+# -------------
+sudo snap install sublime-merge
+
+
 # PYTHON & related
 # ================
 
@@ -33,3 +47,8 @@ sudo apt upgrade nodejs npm
 # error: snap "code" is not available on stable for
 #        this architecture (arm64) but exists on other
 #        architectures (amd64).
+
+# Windsurf
+# --------
+# sudo apt install windsurf
+# sudo apt upgrade windsurf
