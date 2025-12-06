@@ -49,3 +49,11 @@ sudo snap install code
 # --------
 sudo apt install windsurf
 sudo apt upgrade windsurf
+
+
+# CLOUD COMPUTING
+=================
+
+# AWS CLI
+# -------
+sudo snap install aws-cli --classic
