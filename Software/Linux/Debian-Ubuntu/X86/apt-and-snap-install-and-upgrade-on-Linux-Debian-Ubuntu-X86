@@ -57,3 +57,11 @@ sudo apt upgrade windsurf
 # AWS CLI
 # -------
 sudo snap install aws-cli --classic
+
+
+# MISC / OTHER
+# ============
+
+# Postman
+# -------
+sudo snap install postman
