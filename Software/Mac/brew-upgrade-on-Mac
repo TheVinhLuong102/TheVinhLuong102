@@ -10,7 +10,8 @@ FORMULAS_AND_CASKS=(
   LM-Studio Ollama
 
   # Coding Environments/Tools
-  Visual-Studio-Code Cursor Kiro Windsurf Claude-Code Codex
+  Visual-Studio-Code Cursor Kiro Windsurf
+  Claude-Code Codex Codex-App
   GitHub GH SourceTree
   Sublime-Text
 
