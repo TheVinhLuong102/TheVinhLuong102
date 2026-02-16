@@ -45,6 +45,10 @@ sudo apt upgrade nodejs npm
 # ------------------
 sudo snap install code
 
+# Cursor
+# ------
+sudo curl https://cursor.com/install -fsS | bash
+
 # Windsurf
 # --------
 sudo apt install windsurf
