@@ -10,6 +10,9 @@ sudo snap refresh
 # GIT & related
 # =============
 
+sudo apt install git
+sudo apt upgrade git
+
 # Sublime Merge
 # -------------
 sudo snap install sublime-merge
@@ -38,6 +41,15 @@ sudo apt install nodejs npm
 sudo apt upgrade nodejs npm
 
 
+# DOCKER & related
+# ================
+
+# Docker & Docker Compose
+# -----------------------
+sudo apt install docker docker-compose
+sudo apt upgrade docker docker-compose
+
+
 # INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
 # ==========================================
 
@@ -51,12 +63,12 @@ sudo curl https://cursor.com/install -fsS | bash
 
 # Windsurf
 # --------
-sudo apt install windsurf
-sudo apt upgrade windsurf
+# sudo apt install windsurf
+# sudo apt upgrade windsurf
 
 
 # CLOUD COMPUTING
-=================
+# ===============
 
 # AWS CLI
 # -------
@@ -68,4 +80,4 @@ sudo snap install aws-cli --classic
 
 # Postman
 # -------
-sudo snap install postman
+sudo snap install attr postman
