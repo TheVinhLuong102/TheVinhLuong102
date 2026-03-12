@@ -34,10 +34,23 @@ sudo docker run hello-world
 docker --version
 docker compose version
 
+echo "==> Configure Docker non-sudo access for current user"
+sudo groupadd -f docker
+if id -nG "${USER}" | tr ' ' '\n' | grep -qx docker; then
+  echo "User '${USER}' is already in docker group."
+else
+  sudo usermod -aG docker "${USER}"
+  echo "Added '${USER}' to docker group."
+fi
+
 echo
 echo "Docker installation complete."
-echo "Optional (run Docker without sudo):"
-echo "  sudo usermod -aG docker \$USER"
+echo "IMPORTANT: group changes require a session refresh."
+echo "This is typically needed ONCE after being added to the docker group"
+echo "(not every time you open a new terminal in future login sessions)."
+echo "Run one of the following now before testing without sudo:"
 echo "  newgrp docker"
+echo "  # OR log out and log back in"
+echo
 echo "Then verify:"
 echo "  docker run hello-world"
