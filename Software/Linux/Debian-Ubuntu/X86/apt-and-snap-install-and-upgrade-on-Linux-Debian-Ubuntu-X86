@@ -10,8 +10,8 @@ sudo snap refresh
 # GIT & related
 # =============
 
-sudo apt install git
-sudo apt upgrade git
+sudo apt install git gh
+sudo apt upgrade git gh
 
 # Sublime Merge
 # -------------
