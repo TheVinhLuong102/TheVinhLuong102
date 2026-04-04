@@ -49,6 +49,10 @@ sudo apt upgrade nodejs npm
 sudo apt install docker docker-compose
 sudo apt upgrade docker docker-compose
 
+# KubeCtl
+# -------
+sudo snap install kubectl --classic
+
 
 # INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
 # ==========================================
