@@ -53,6 +53,10 @@ sudo apt upgrade docker docker-compose
 # -------
 sudo snap install kubectl --classic
 
+# Helm
+# ----
+sudo snap install helm --classic
+
 
 # INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
 # ==========================================
