@@ -57,6 +57,11 @@ sudo snap install kubectl --classic
 # ----
 sudo snap install helm --classic
 
+# Kind
+# ----
+sudo apt install kind
+sudo apt upgrade kind
+
 
 # INTEGRATED DEVELOPMENT ENVIRONMENTS (IDEs)
 # ==========================================
